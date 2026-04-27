@@ -1,0 +1,206 @@
+{
+  "samples": [
+    {
+      "intent": "recommend",
+      "query": "推荐一本计算机专业的书",
+      "entities": {"category": "计算机专业", "type": "专业推荐"}
+    },
+    {
+      "intent": "recommend",
+      "query": "给我推荐一些科幻小说",
+      "entities": {"category": "科幻小说", "type": "类型推荐"}
+    },
+    {
+      "intent": "recommend",
+      "query": "有什么好看的历史书吗",
+      "entities": {"category": "历史", "type": "类型推荐"}
+    },
+    {
+      "intent": "recommend",
+      "query": "推荐考研英语真题",
+      "entities": {"purpose": "考研", "category": "英语", "type": "用途推荐"}
+    },
+    {
+      "intent": "recommend",
+      "query": "按我的专业推荐一些书",
+      "entities": {"type": "专业匹配"}
+    },
+    {
+      "intent": "recommend",
+      "query": "我想看一些悬疑小说",
+      "entities": {"category": "悬疑小说", "type": "类型推荐"}
+    },
+    {
+      "intent": "recommend",
+      "query": "推荐几本入门的编程书",
+      "entities": {"level": "入门", "category": "编程", "type": "难度推荐"}
+    },
+    {
+      "intent": "recommend",
+      "query": "有什么适合大一新生的书",
+      "entities": {"grade": "大一", "type": "年级推荐"}
+    },
+    {
+      "intent": "recommend",
+      "query": "推荐公务员备考资料",
+      "entities": {"purpose": "考公", "category": "备考资料", "type": "用途推荐"}
+    },
+    {
+      "intent": "recommend",
+      "query": "按兴趣推荐一些读物",
+      "entities": {"type": "兴趣推荐"}
+    },
+    {
+      "intent": "search",
+      "query": "搜索《三体》",
+      "entities": {"book_title": "三体"}
+    },
+    {
+      "intent": "search",
+      "query": "查一下《Python编程》在哪里",
+      "entities": {"book_title": "Python编程"}
+    },
+    {
+      "intent": "search",
+      "query": "我想找《活着》这本书",
+      "entities": {"book_title": "活着"}
+    },
+    {
+      "intent": "search",
+      "query": "帮我找《百年孤独》",
+      "entities": {"book_title": "百年孤独"}
+    },
+    {
+      "intent": "search",
+      "query": "搜索鲁迅的作品",
+      "entities": {"author": "鲁迅"}
+    },
+    {
+      "intent": "search",
+      "query": "查《数据结构》这本书",
+      "entities": {"book_title": "数据结构"}
+    },
+    {
+      "intent": "search",
+      "query": "查找《盗墓笔记》",
+      "entities": {"book_title": "盗墓笔记"}
+    },
+    {
+      "intent": "search",
+      "query": "搜索关于机器学习的书",
+      "entities": {"keyword": "机器学习"}
+    },
+    {
+      "intent": "search",
+      "query": "查找《平凡的世界》",
+      "entities": {"book_title": "平凡的世界"}
+    },
+    {
+      "intent": "search",
+      "query": "搜索金庸的武侠小说",
+      "entities": {"author": "金庸", "category": "武侠小说"}
+    },
+    {
+      "intent": "consult",
+      "query": "图书馆开放时间",
+      "entities": {"type": "开放时间"}
+    },
+    {
+      "intent": "consult",
+      "query": "最多能借几本书",
+      "entities": {"type": "借阅规则"}
+    },
+    {
+      "intent": "consult",
+      "query": "续借规则是什么",
+      "entities": {"type": "续借规则"}
+    },
+    {
+      "intent": "consult",
+      "query": "怎么预约图书",
+      "entities": {"type": "预约流程"}
+    },
+    {
+      "intent": "consult",
+      "query": "借书要收费吗",
+      "entities": {"type": "费用问题"}
+    },
+    {
+      "intent": "consult",
+      "query": "图书馆在哪",
+      "entities": {"type": "位置咨询"}
+    },
+    {
+      "intent": "consult",
+      "query": "怎么办理借书证",
+      "entities": {"type": "办证流程"}
+    },
+    {
+      "intent": "consult",
+      "query": "逾期罚款多少",
+      "entities": {"type": "逾期费用"}
+    },
+    {
+      "intent": "consult",
+      "query": "可以委托代借吗",
+      "entities": {"type": "代借规则"}
+    },
+    {
+      "intent": "consult",
+      "query": "闭馆时间",
+      "entities": {"type": "闭馆时间"}
+    },
+    {
+      "intent": "borrow_status",
+      "query": "我借了几本书",
+      "entities": {"type": "借阅数量"}
+    },
+    {
+      "intent": "borrow_status",
+      "query": "查看我的借阅状态",
+      "entities": {"type": "借阅状态"}
+    },
+    {
+      "intent": "borrow_status",
+      "query": "我有哪些书要还",
+      "entities": {"type": "待还图书"}
+    },
+    {
+      "intent": "borrow_status",
+      "query": "我的书什么时候到期",
+      "entities": {"type": "到期查询"}
+    },
+    {
+      "intent": "borrow_status",
+      "query": "还有多久还书",
+      "entities": {"type": "剩余天数"}
+    },
+    {
+      "intent": "reserve",
+      "query": "预约《三体》",
+      "entities": {"book_title": "三体"}
+    },
+    {
+      "intent": "reserve",
+      "query": "我想预约这本书",
+      "entities": {"type": "预约"}
+    },
+    {
+      "intent": "reserve",
+      "query": "预约《Python编程》",
+      "entities": {"book_title": "Python编程"}
+    },
+    {
+      "intent": "reserve",
+      "query": "帮我预约",
+      "entities": {"type": "预约"}
+    },
+    {
+      "intent": "reserve",
+      "query": "预定这本书",
+      "entities": {"type": "预约"}
+    }
+  ],
+  "update_time": "2026-04-01",
+  "version": "1.0"
+}
