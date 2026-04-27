@@ -10,7 +10,7 @@ from pydantic import BaseModel
 
 # 将 Service 获取方法统一提取到顶部
 # 注意：确保这些路径在你的项目中是正确的
-from backend.app.services.library_service import get_library_servi
+from backend.app.services.library_service import get_library_service
 from backend.app.services.recommend_service import get_recommend_service
 
 router = APIRouter(prefix="/books", tags=["图书管理"])
