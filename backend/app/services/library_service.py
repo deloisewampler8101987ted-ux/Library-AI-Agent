@@ -466,7 +466,7 @@ class LibraryService:
                 notifications.append({
                     "type": "overdue_warning",
                     "title": "图书逾期提醒",
-                    "message": f"《{record['book_title']》已逾期{-days_left}天，请尽快归还",
+                    "message": f"《{record['book_title']》已逾期{-days_left}天，请尽快归还",}
                     "book_id": record["book_id"],
                     "record_id": record["id"]
                 })
